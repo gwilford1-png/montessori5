@@ -26,7 +26,7 @@ const RAW_V2: any[] = [
     reference_link: "https://montessoriguide.org/infant-visual-materials",
     image_prompt: "Munari Mobile illustration.",
     thumbnail: "images/Munari_Mobile.png",
-    hero: "images/Munari_Mobile_lrg.png",
+    hero: "images/munari_mobile_hero_1.png",
   },
   {
     id: "2",
