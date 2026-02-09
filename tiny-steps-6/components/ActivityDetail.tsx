@@ -99,13 +99,13 @@ const ActivityDetail: React.FC<ActivityDetailComponentProps> = ({
       <div className="max-w-xl mx-auto px-5 pt-6 pb-24">
         {/* 1. Hero Image - Nested within padding */}
         <div className="mb-8">
-          <div className="aspect-[4/3] rounded-[2.5rem] overflow-hidden bg-slate-50 border border-slate-100 mb-3 relative flex items-center justify-center">
-            {activity.hero ? (
-              <img 
-                src={activity.hero} 
-                alt={activity.title}
-                className="w-full h-full object-cover"
-              />
+          <div className="aspect-square rounded-[2.5rem] overflow-hidden bg-slate-50 border border-slate-100 mb-3 relative flex items-center justify-center">
+  {activity.hero ? (
+    <img 
+      src={activity.hero} 
+      alt={activity.title}
+      className="w-full h-full object-contain"
+    />
             ) : (
               <div className="w-full h-full flex items-center justify-center bg-white/40">
                 <GeminiIllustration 
