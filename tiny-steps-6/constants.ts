@@ -48,7 +48,7 @@ const RAW_V2: any[] = [
     items_required: ["Mechanical Music Box", "Ribbon"],
     reference_link: "https://amshq.org/About-Montessori/Montessori-Articles/All-Articles/Music-and-the-Montessori-Child",
     image_prompt: "Wooden music box.",
-    thumbnail: "images/Music_Box.png",
+    thumbnail: "Images/Music_Box.png",
     hero: "Images/Music_Box_Hero.png",
   },
   {
