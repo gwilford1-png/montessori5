@@ -94,8 +94,8 @@ const RAW_V2: any[] = [
     items_required: ["Wooden Interlocking Circles"],
     reference_link: "https://amiusa.org/montessori-for-infants/",
     image_prompt: "Wooden interlocking circles.",
-    thumbnail: "images/Interlocking_Circles.png",
-    hero: "images/Interlocking_Circles_lrg.png",
+    thumbnail: "Images/Interlocking_Discs_Thumbnail.png",
+    hero: "Images/Interlocking_Discs_Hero.png",
   },
   {
     id: "5",
