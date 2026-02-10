@@ -72,7 +72,7 @@ const RAW_V2: any[] = [
     reference_link: "https://montessoriguide.org/infant-visual-materials",
     image_prompt: "Reflective octahedrons.",
     thumbnail: "Images/Octahedron_Mobile.png",
-    hero: "images/Octahedron_lrg.png",
+    hero: "Images/Octahedron_Mobile_Hero.png",
   },
   {
     id: "4",
