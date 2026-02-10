@@ -117,8 +117,8 @@ const RAW_V2: any[] = [
     items_required: ["Gobbi Mobile"],
     reference_link: "https://amshq.org/About-Montessori/Montessori-Articles/All-Articles/Visual-Mobiles",
     image_prompt: "Gobbi color gradation.",
-    thumbnail: "images/Gobbi_Mobile.png",
-    hero: "images/Gobbi_Mobile_lrg.png",
+    thumbnail: "Images/Gobbi_Mobile_Thumbnail.png",
+    hero: "Images/Gobbi_Mobile_Hero.png",
   },
   {
     id: "6",
