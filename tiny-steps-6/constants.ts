@@ -71,7 +71,7 @@ const RAW_V2: any[] = [
     items_required: ["Octahedron Mobile"],
     reference_link: "https://montessoriguide.org/infant-visual-materials",
     image_prompt: "Reflective octahedrons.",
-    thumbnail: "images/Octahedron.png",
+    thumbnail: "Images/Octahedron_Mobile.png",
     hero: "images/Octahedron_lrg.png",
   },
   {
@@ -141,7 +141,7 @@ const RAW_V2: any[] = [
     reference_link: "https://amshq.org/About-Montessori/Montessori-Articles/All-Articles/Visual-Mobiles",
     image_prompt: "Reflective paper dancers.",
     thumbnail: "Images/Dancers_Mobile.png",
-    hero: "images/Paper_Dancers_lrg.png",
+    hero: "Images/Paper_Dancers_lrg.png",
   },
   {
     id: "7",
