@@ -25,7 +25,7 @@ const RAW_V2: any[] = [
     items_required: ["Munari Mobile", "Mobile Stand"],
     reference_link: "https://montessoriguide.org/infant-visual-materials",
     image_prompt: "Munari Mobile illustration.",
-    thumbnail: "images/Munari_Mobile.png",
+    thumbnail: "Images/Munari_Mobile.png",
     hero: "Images/munari_mobile_hero_1.png",
   },
   {
@@ -140,7 +140,7 @@ const RAW_V2: any[] = [
     items_required: ["Reflective Paper Figures"],
     reference_link: "https://amshq.org/About-Montessori/Montessori-Articles/All-Articles/Visual-Mobiles",
     image_prompt: "Reflective paper dancers.",
-    thumbnail: "images/Paper_Dancers.png",
+    thumbnail: "Images/Dancers_Mobile.png",
     hero: "images/Paper_Dancers_lrg.png",
   },
   {
@@ -416,7 +416,7 @@ const RAW_V2: any[] = [
     items_required: ["Dowel Bell Rattle"],
     reference_link: "https://amshq.org/About-Montessori/Montessori-Articles/All-Articles/The-Rattle",
     image_prompt: "Dowel with bells.",
-    thumbnail: "images/Dowel_Rattle.png",
+    thumbnail: "Images/Bell_Rattle.png",
     hero: "images/Dowel_Rattle_lrg.png",
   },
   {
