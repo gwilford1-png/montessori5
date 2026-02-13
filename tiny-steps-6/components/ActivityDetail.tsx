@@ -61,14 +61,7 @@ const ActivityDetail: React.FC<ActivityDetailComponentProps> = ({
       }
     }
   };
-
-  const handleBuyNow = () => {
-    const query = activity.materials && activity.materials.length > 0 
-      ? activity.materials[0] 
-      : activity.title;
-    window.open(`https://www.amazon.com/s?k=${encodeURIComponent(query + ' montessori')}`, '_blank');
-  };
-
+  
   const nextActivity = useMemo(() => {
     const currentIndex = activities.findIndex(a => a.id === activity.id);
     if (currentIndex !== -1 && currentIndex < activities.length - 1) {
@@ -158,19 +151,26 @@ const ActivityDetail: React.FC<ActivityDetailComponentProps> = ({
             ))}
           </div>
 
-          <div className="space-y-4 max-w-md mx-auto">
-            <button 
-              onClick={handleBuyNow}
-              className="w-full h-12 bg-blue-500/90 text-white rounded-2xl flex items-center justify-center gap-3 font-bold text-[11px] uppercase tracking-[0.2em] shadow-sm shadow-blue-100/50 hover:bg-blue-600 transition-all active:scale-[0.98]"
-            >
-              <ShoppingCart size={16} />
-              Buy Item
-              <ExternalLink size={12} className="opacity-40" />
-            </button>
-            <p className="text-[9px] text-slate-400 text-center font-medium leading-relaxed px-4">
-              Selected items may earn us a small commission at no extra cost to you.
-            </p>
-          </div>
+{activity.affiliateLinks && activity.affiliateLinks.length > 0 && (
+  <div className="space-y-3 max-w-md mx-auto">
+    {activity.affiliateLinks.map((link, i) => (
+      <a
+        key={i}
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full h-12 bg-blue-500/90 text-white rounded-2xl flex items-center justify-center gap-3 font-bold text-[11px] uppercase tracking-[0.2em] shadow-sm shadow-blue-100/50 hover:bg-blue-600 transition-all active:scale-[0.98]"
+      >
+        <ShoppingCart size={16} />
+        {link.label || 'Buy Item'}
+        <ExternalLink size={12} className="opacity-40" />
+      </a>
+    ))}
+    <p className="text-[9px] text-slate-400 text-center font-medium leading-relaxed px-4">
+      Selected items may earn us a small commission at no extra cost to you.
+    </p>
+  </div>
+)}
         </section>
 
         {/* 5. The Guide (Steps) */}
