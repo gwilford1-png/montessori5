@@ -163,7 +163,7 @@ const RAW_V2: any[] = [
     items_required: ["Rubber Ball with Protrusions"],
     reference_link: "https://amiusa.org/montessori-for-infants/",
     image_prompt: "Textured rubber ball.",
-    thumbnail: "Images/Rubber_Ball_Thumbnail.png",
+    thumbnail: "Images/Rubber_Ball_thumbnail.png",
     hero: "Images/Rubber_Ball.png",
   },
   {
