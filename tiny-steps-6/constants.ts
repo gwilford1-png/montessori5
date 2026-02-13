@@ -144,34 +144,33 @@ const RAW_V2: any[] = [
     hero: "Images/Paper_Dancers_lrg.png",
   },
   {
-    id: "9",
-    title: "Rubber Nub Ball",
-    category: "Cognitive",
-    filter_tag: "3-6 Months",
-    type: "Activity",
-    description: "Non-toxic rubber sphere with protrusions for easy gripping.",
-    what_is_it: "Grasp mouth and manipulate a textured rubber sphere.",
-    why_is_it_good: "Refines the grasp and provides high-density tactile and oral data.",
-    dos: ["Prepare a calm, distraction-free space.", "Follow your child’s pace and stop when they disengage."],
-    donts: ["Don't use plastic containing BPA/phthalates; use natural rubber.", "Don't interrupt 'mouth work'; the mouth is a primary tool for learning."],
-    steps: [
-      { image_url: "", caption: "Initially place the ball directly in the baby's hands." },
-      { image_url: "", caption: "Allow the child to explore the 'nipples' or nubs with their mouth." },
-      { image_url: "", caption: "Place it just out of reach on the mat to encourage movement." },
-      { image_url: "", caption: "Observe the baby transferring the ball from hand to hand." }
-    ],
-    items_required: ["Rubber Ball with Protrusions"],
-    reference_link: "https://amiusa.org/montessori-for-infants/",
-    image_prompt: "Textured rubber ball.",
-    thumbnail: "Images/Rubber_Nub_Ball_thumbnail.png",
-    hero: "Images/Rubber_Nub_Ball.png",
-     affiliateLinks: [
+  id: "9",
+  title: "Rubber Nub Ball",
+  category: "Cognitive",
+  filter_tag: "3-6 Months",
+  reassurance: "Your child is exactly where they need to be, discovering the world at their own pace.",
+  objective: "Grasp mouth and manipulate a textured rubber sphere.",
+  outcome: "Refines the grasp and provides high-density tactile and oral data.",
+  why_matters: "Refines the grasp and provides high-density tactile and oral data.",
+  steps: [
+    { image_url: "", caption: "Initially place the ball directly in the baby's hands." },
+    { image_url: "", caption: "Allow the child to explore the 'nipples' or nubs with their mouth." },
+    { image_url: "", caption: "Place it just out of reach on the mat to encourage movement." },
+    { image_url: "", caption: "Observe the baby transferring the ball from hand to hand." }
+  ],
+  materials: ["Rubber Ball with Protrusions"],
+  safety_notes: "Don't use plastic containing BPA/phthalates; use natural rubber. Don't interrupt 'mouth work'; the mouth is a primary tool for learning.",
+  when_to_pause: "Follow your child's pace and stop when they disengage.",
+  image_prompt: "Textured rubber ball.",
+  thumbnail: "Images/Rubber_Nub_Ball_thumbnail.png",
+  hero: "Images/Rubber_Nub_Ball.png",
+  affiliateLinks: [
     {
       url: "https://getkidzly.uk/p/silicone-teether-rattle-ball-sensory-toy-for-baby/?",
       label: "Buy Rubber Nub Ball"
     }
   ]
-  },
+},
   {
     id: "12",
     title: "Grasping Beads",
