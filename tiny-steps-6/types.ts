@@ -23,6 +23,7 @@ export interface Activity {
   image_prompt?: string;
   thumbnail?: string;
   hero?: string;
+  affiliateLinks?: Array<{ url: string; label?: string; }>;
 }
 
 export interface Book {
