@@ -165,6 +165,12 @@ const RAW_V2: any[] = [
     image_prompt: "Textured rubber ball.",
     thumbnail: "Images/Rubber_Nub_Ball_thumbnail.png",
     hero: "Images/Rubber_Nub_Ball.png",
+     affiliateLinks: [
+    {
+      url: "https://getkidzly.uk/p/silicone-teether-rattle-ball-sensory-toy-for-baby/?",
+      label: "Buy Rubber Nub Ball"
+    }
+  ]
   },
   {
     id: "12",
