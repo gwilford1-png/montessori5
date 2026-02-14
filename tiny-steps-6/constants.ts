@@ -162,8 +162,8 @@ const RAW_V2: any[] = [
   safety_notes: "Don't use plastic containing BPA/phthalates; use natural rubber. Don't interrupt 'mouth work'; the mouth is a primary tool for learning.",
   when_to_pause: "Follow your child's pace and stop when they disengage.",
   image_prompt: "Textured rubber ball.",
-  thumbnail: "/Images/Rubber_Nub_Ball_thumbnail.png",
-  hero: "/Images/Rubber_Nub_Ball.png",
+  thumbnail: "Images/Rubber_Nub_Ball_thumbnail.png",
+  hero: "Images/Rubber_Nub_Ball.png",
   affiliateLinks: [
     {
       url: "https://getkidzly.uk/p/silicone-teether-rattle-ball-sensory-toy-for-baby/?",
