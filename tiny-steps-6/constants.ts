@@ -6,27 +6,27 @@ export const AGE_FILTERS = ["All", ...AGE_ORDER];
 
 const RAW_V2: any[] = [
   {
-    id: "1",
+   id: "1",
     title: "Munari Mobile",
     category: "Visual",
     filter_tag: "0-3 Months",
-    type: "Activity",
-    description: "Mathematically-balanced black and white geometric shapes.",
-    what_is_it: "Observe high-contrast geometric shapes hung at focusing distance.",
-    why_is_it_good: "Builds early visual concentration and retinal sharpness.",
-    dos: ["Prepare a calm, distraction-free space.", "Follow your child’s pace and stop when they disengage."],
-    donts: ["Don't hang more than 30cm away from the baby's face.", "Don't move the mobile manually; let natural air currents provide movement."],
+    reassurance: DEFAULT_REASSURANCE,
+    objective: "Observe high-contrast geometric shapes hung at focusing distance.",
+    outcome: "Builds early visual concentration and retinal sharpness.",
+    why_matters: "Mathematically-balanced black and white geometric shapes.",
     steps: [
       { image_url: "", caption: "Securely hang the Munari Mobile from a stand or ceiling hook." },
       { image_url: "", caption: "Position the baby on a flat mat with eyes roughly 12 inches below the material." },
       { image_url: "", caption: "Ensure gentle air flow to allow the material to rotate or sway naturally." },
       { image_url: "", caption: "Observe the baby's quiet concentration without interruption." }
     ],
-    items_required: ["Munari Mobile", "Mobile Stand"],
-    reference_link: "https://montessoriguide.org/infant-visual-materials",
+    materials: ["Munari Mobile", "Mobile Stand"],
+    safety_notes: "Don't hang more than 30cm away from the baby's face. Don't move the mobile manually; let natural air currents provide movement.",
+    when_to_pause: DEFAULT_PAUSE,
     image_prompt: "Munari Mobile illustration.",
     thumbnail: "Images/Munari_Mobile.png",
     hero: "Images/munari_mobile_hero_1.png",
+    affiliateLinks: [] 
   },
   {
     id: "2",
