@@ -3674,17 +3674,18 @@ export const INITIAL_ACTIVITIES: Activity[] = RAW_V2.map(item => ({
   title: item.title,
   category: item.category,
   filter_tag: item.filter_tag,
-  reassurance: "Your child is exactly where they need to be, discovering the world at their own pace.",
-  objective: item.what_is_it || "",
-  outcome: item.why_is_it_good || "",
-  why_matters: item.description || "",
+  reassurance: item.reassurance || "Your child is exactly where they need to be, discovering the world at their own pace.",
+  objective: item.objective || item.what_is_it || "",
+  outcome: item.outcome || item.why_is_it_good || "",
+  why_matters: item.why_matters || item.description || "",
   steps: item.steps || [],
-  when_to_pause: "Follow the child. If they show signs of fatigue, look away, or begin to lose interest, it's a natural time to conclude the activity.",
-  materials: item.items_required || [],
-  safety_notes: (item.donts ? item.donts.join('. ') : "") + (item.reference_link ? ` Source: ${item.reference_link}` : ""),
+  when_to_pause: item.when_to_pause || "Follow the child. If they show signs of fatigue, look away, or begin to lose interest, it's a natural time to conclude the activity.",
+  materials: item.materials || item.items_required || [],
+  safety_notes: item.safety_notes || ((item.donts ? item.donts.join('. ') : "") + (item.reference_link ? ` Source: ${item.reference_link}` : "")),
   image_prompt: item.image_prompt,
   thumbnail: item.thumbnail,
-  hero: item.hero
+  hero: item.hero,
+  affiliateLinks: item.affiliateLinks || []
 }));
 
 export const ACTIVITY_BUNDLES: any[] = [];
